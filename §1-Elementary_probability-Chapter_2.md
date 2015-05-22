@@ -12,9 +12,9 @@
 + An **event** is any possible outcome of an expieriment - this also includes combinations of outcomes
   + Events of (pick one, put it back) = {anything,R,B,G,~R,~B,~G,nothing}
     + ~R = not red
-The **complement** of an event is the event containing all outcomes NOT in the event.We’ll call comp. A = A’
++ The **complement** of an event is the event containing all outcomes NOT in the event.We’ll call comp. A = A’
   + if P(A) = 0.02, P(A’) = 0.98
-=
+
 ###Notation
   + Events A and B
   + A∪B is the event that either an outcome in A or one in B happens
@@ -25,6 +25,7 @@ The **complement** of an event is the event containing all outcomes NOT in the e
     + A’ = BB,BG,GG
     + A∪B = RR,RB,RG,BB,BG
     + A⋂B = RB
+
 ###Theorem: Let A,B,C be events  -  De Morgan’s Laws
 + Part 1
   + (A∪B)’ = A’⋂B’
