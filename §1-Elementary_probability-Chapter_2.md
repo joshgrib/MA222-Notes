@@ -1,6 +1,6 @@
 #MA222 - Probability and Statistics for Engineers
 "Probabilty and statistics aren't really my thing" - Andrei-Paul Grecianu, professor for the course
----
+
 ###Definitions
 + An **experiment** is any self-standing trial that can go multiple ways
 + The **sample space** of an experiment is the set of all possible answers
@@ -14,11 +14,12 @@
     + ~R = not red
 The **complement** of an event is the event containing all outcomes NOT in the event.We’ll call comp. A = A’
   + if P(A) = 0.02, P(A’) = 0.98
----
+=
 ###Notation
   + Events A and B
   + A∪B is the event that either an outcome in A or one in B happens
   + A⋂B is the event that an outcome in both A and B happen
+
 ###Experiment: pick 2 marbles R,B,G. Event A is a red marble. Event B is a blue marble
   + Outcomes
     + A’ = BB,BG,GG
@@ -31,11 +32,14 @@ The **complement** of an event is the event containing all outcomes NOT in the e
 + Part 2
   + A∪(B⋂C) = (A∪B)⋂(A∪C)
   + A⋂(B∪C) = (A⋂B)∪(A⋂C)
+
 ###Experiment: {BB,BR,BG,RG,RR,GG}
 *Drawing can make it more clear*
+
 ###Remark
 + An event can be identified with the subset of all possible outcomes that make it true. “∪,⋂” all correspond to the same operations in a set theory
 + We’re going to write “A⋂B” as “AB”
+
 ###More definitions
 + ɸ(phi) is the event that never happens
 + We will use S for the event that always happens
@@ -47,6 +51,7 @@ The **complement** of an event is the event containing all outcomes NOT in the e
     + The sum of all the pair-wise disjoint events is 1
 + The number P(A) represents the chance of an event happening out of 1
 + Generally, you can move things around in a basic algebraic way, if the sum all all events is 1, the sum of ⅘ of them is equal to 1 minus the other 5th, etc
+
 ###Summary of lecture
 + Some definitions
 + Set theory
@@ -55,6 +60,7 @@ The **complement** of an event is the event containing all outcomes NOT in the e
 + Other resources:
   + [Set Theory](http://www.solitaryroad.com/c725.html)
   + [MIT OCW](http://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/)
+
 ---------------Lecture 2 - 5/20/15----------------
 §2.3 - Counting
 Example - 20 marbles - 5 red, 3 green, 12 blue
